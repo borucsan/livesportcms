@@ -1,0 +1,68 @@
+/* 
+    Document   : admin
+    Created on : 2012-11-29, 19:14:19
+    Author     : boruc-san
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.admin_data_table{
+    margin: .4em auto 0;
+}
+.admin_data_table td{
+    border: 1px solid black;
+    font-size: .8em;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    min-width: 65px;
+}
+.admin_form_add{
+    width: 90%;
+    font-size: .9em;
+    text-align: left;
+    margin: .5em 5%;
+    position: relative;
+}
+.admin_form_add input[type=text]{
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+        padding: 0 .2em;
+        background-color: #ccff99;
+}
+.admin_form_add input[type=submit], .admin_form_add input[type=reset]{
+    width: 100px;
+    position: absolute;
+}
+.admin_form_add input[type=submit]{
+    top:0px;
+    right: 120px;
+}
+.admin_form_add input[type=reset]{
+    top:0px;
+    right: 0px;
+}
+.admin_form_add input[type=text]:focus{
+    background-color: #eee;
+}
+.admin_form_add input, .admin_form_add select{
+    margin-bottom: .6em;
+}
+.admin_form_add fieldset {margin-bottom: 1.5em;}
+.admin_form_add label{
+    width: 200px;
+    float: left;
+}
+#add_event_time{width: 45px;} #add_event_date{width: 80px;}
+.report_score_form{
+    border: 1px solid black;
+    width: 90%;
+    margin: .5em auto;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.report_score_form_ms, .report_score_form_subs, .report_score_add_count{
+    width: 60px;
+    text-align: center;
+}
