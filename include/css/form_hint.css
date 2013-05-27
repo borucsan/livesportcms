@@ -1,0 +1,31 @@
+/* 
+    Document   : form_hint
+    Created on : 2013-01-12, 11:14:31
+    Author     : boruc-san
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.form_hint{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.form_hint p{
+    background: #9999ff;
+    display: none;
+    position: absolute;
+    font-size: .9em;
+    width: 200px;
+    padding: 2px 4px;
+    top: 0px;
+    left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.form_hint:hover > p{
+    display: block;
+}
+

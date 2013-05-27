@@ -1,0 +1,110 @@
+/* 
+    Document   : reset
+    Created on : 2012-11-01, 20:48:43
+    Author     : boruc-san, adamus1115
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.debug1{
+    outline: 1px solid red;
+}
+.debug2{
+    outline: 1px solid #0000cc;
+}
+.debug3{
+    outline: 1px solid #cccc00;
+}
+/* Reset bloków HTML5 dla starszych przeglądarek*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+/* Reset bloków */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html
+{
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100.01%; /* Tweak dla jednostek em w Operze */
+}
+body
+{
+    /*border: 1.5px solid #000;*/
+    clear: both;
+    color: #000;
+    font-size: .875em;
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(135deg,  #45484d 0%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    line-height: 1.429;
+    margin: 20px auto;
+    padding: 0px 0px 0px 0px;
+    width: 95%;
+    
+    
+}
+.body {background: #fff; clear: both; margin: 0 auto; width: 100%;}
+
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;
+}
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Heading */
+h1 
+{
+    font-size: 22px;
+    font-family: TimesNewRoman;
+    color: white;
+    text-align: right;
+    padding-right: 10%;
+    margin: 0 0;
+}
+h2 {font-size: 1.57em;} /*22px*/
+h3 {font-size: 1.43em;} /*20px*/
+h4 {font-size: 1.29em;} /*18px*/
+h5 {font-size: 1.14em;} /*16px*/
+h6 {font-size: 1em;} /*14px*/
+h7 {font-size: 0.80em;}
+h8 {
+    font-size: 1.43em;
+    padding-left: 40px;
+} /*20px*/
+@font-face{
+    font-family: 'Digital';
+    src: url('../fonts/digital.woff') format('woff'),
+         url('../fonts/digital.ttf') format('truetype');
+    font-weight: bold;
+}
